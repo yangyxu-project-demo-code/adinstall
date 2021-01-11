@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" name="viewport" />
+        <meta content="yes" name="apple-mobile-web-app-capable" />
+        <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+        <meta content="telephone=no" name="format-detection" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta http-equiv="x-rim-auto-match" content="none" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta http-equiv="Cache-Control" content="no-cache, must-revalidate" />
+        <meta http-equiv="expires" content="Wed, 26 Feb 1997 08:21:57 GMT" />
+        <meta http-equiv="expires" content="0" />
+        <meta content="腾麟,广告" name="keywords" />
+        <meta content="腾麟云装" name="description" />
+        <title>腾麟云装</title>
+    </head>
+    <body>
+        <div id='container'>
+            <div style="text-align:center;width:100%;margin:100px 0px;">
+                <img style="width:128px;height:128px;" src="./images/loading.gif" />
+            </div>
+        </div>
+        <script type="text/javascript">
+            (function (){
+                var _search = window.location.href.split('?')[1],
+                    _obj = {};
+                if(_search){
+                    _search = _search.split('&');
+                }
+
+                _search.forEach(function (value){
+                    value = value.split('=');
+                    _obj[value[0]] = value[1];
+                });
+
+                if(_obj['orderCode']){
+                    window.location.href = window.location.origin + '/index.html#/order/info?orderCode='+_obj['orderCode'];
+                }
+            })()
+        </script>
+    </body>
+</html>

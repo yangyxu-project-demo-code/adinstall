@@ -1,0 +1,37 @@
+.adinstall-base-component-advs{
+    background-color: #FFF;
+    padding: 3px;
+    .adv{
+        border: 2px solid #e6e6e6;
+        margin: 3px;
+        .adv-title{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            line-height: 28px;
+            padding: 0px 5px;
+            background-color: #e6e6e6;
+        }
+        .adv-item{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 2px 5px;
+            border-bottom: 1px solid #e6e6e6;
+            &:last-child{
+                border-bottom: 0px;
+            }
+            font-size: 12px;
+            ._key{
+                width: 100px;
+                color: #8B8E90;
+            }
+            ._value{
+                flex: 1;
+                text-align: right;
+                color: #03a9f4;
+            }
+        }
+    }
+}

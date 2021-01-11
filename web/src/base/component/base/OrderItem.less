@@ -1,0 +1,49 @@
+.adinstall-base-component-order-item{
+    border-bottom: 1px solid #eee;
+    background-color: #FFF;
+    &>*{
+        padding: 4px;
+    }
+    .title{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(241, 241, 241, 0.5);
+        font-size: 13px;
+        .work-type{
+            background-color: #f0ad4e;
+            border-radius: 1px;
+            color: #FFF;
+            font-size: 12px;
+            font-weight: 200;
+            padding: 3px 5px;
+            margin: 4px;
+        }
+        .code{
+            font-weight: 500;
+            font-size: 12px;
+        }
+    }
+    .info{
+        background-color: #f8f8f8;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        .icon{
+            width: 38px;
+            height: 38px;
+            margin: 2px 4px;
+        }
+        .fields{
+            flex: 1;
+            .value{
+                font-size: 11px;
+                font-weight: 200;
+                .fa{
+                    width: 16px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

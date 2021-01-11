@@ -1,0 +1,292 @@
+.adinstall-icon-btn {
+  padding: 3px;
+  font-size: 12px;
+  border: 1px solid #656972;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.adinstall-icon-btn::before {
+  padding: 2px;
+}
+.adinstall-icon-btn:hover,
+.adinstall-icon-btn:active {
+  border-color: #58a0c3;
+  color: #58a0c3;
+}
+.adinstall-tag {
+  background-color: #dadada;
+  border-radius: 8px;
+  padding: 2px 6px;
+  margin: 3px;
+  font-size: 10px;
+}
+.adinstall-btn {
+  cursor: pointer;
+  font-size: 10px;
+  margin: 2px 5px;
+  padding: 2px 5px;
+  border-radius: 2px;
+  color: #666a73;
+  border: 1px solid #666a73;
+}
+.adinstall-btn.danger {
+  color: #d9534f;
+  border-color: #d9534f;
+}
+.adinstall-btn.warning {
+  color: #EFA133;
+  border-color: #EFA133;
+}
+.adinstall-list-view-page .zr-pager-view .content-view {
+  overflow: initial !important;
+}
+.adinstall-btns {
+  border-top: 1px solid rgba(241, 241, 241, 0.5);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 12px;
+  padding: 3px;
+}
+.adinstall-btns .btn,
+.adinstall-btns span {
+  margin-left: 5px;
+}
+.adinstall-btns .btn {
+  padding: 2px 15px;
+  border-radius: 2px;
+  border: 1px solid #E6E5E5;
+}
+.adinstall-btns .btn.danger {
+  color: #d9534f;
+  border-color: #d9534f;
+}
+.adinstall-btns .btn.warning {
+  color: #EFA133;
+  border-color: #EFA133;
+}
+.adinstall-link {
+  padding: 5px 0px;
+  text-align: right;
+}
+.adinstall-link .link {
+  background-color: #d8d9da;
+  font-size: 12px;
+  padding: 2px 10px;
+  border-radius: 2px;
+  color: #939498;
+  margin: 5px;
+}
+.adinstall-link .link:hover {
+  color: #3498db;
+  background-color: #c0c3c5;
+  text-decoration: underline;
+}
+.adinstall-link .link.ok {
+  color: green;
+}
+.adinstall-link .link.danger {
+  color: red;
+}
+.adinstall-group .group-title {
+  padding: 5px;
+  padding-bottom: 0px;
+  font-size: 10px;
+  font-weight: 200;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.adinstall-group .group {
+  background-color: #FFF;
+  color: #909090;
+  margin: 5px 0px;
+  margin-top: 0px;
+  padding: 2px 10px;
+}
+.adinstall-group .group-item {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #f1f1f1;
+}
+.adinstall-group .group-item:last-child {
+  border-color: #FFF;
+}
+.adinstall-group .group-item ._key {
+  text-align: left;
+  min-width: 100px;
+  color: #6B6B6B;
+  font-weight: 500;
+}
+.adinstall-group .group-item ._value {
+  flex: 1;
+  font-weight: 200;
+  font-size: 13px;
+}
+.adinstall-group .group-item ._value .img {
+  width: 64px;
+  height: 64px;
+}
+.adinstall-group .group-item .fa-angle-right {
+  width: 10px;
+  text-align: center;
+}
+.adinstall-task {
+  background-color: #FFF;
+}
+.adinstall-inner {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 2px;
+  background-color: #e6e6e6;
+}
+.adinstall-inner:hover {
+  background-color: #eae8e8;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+}
+.adinstall-inner .inner-left {
+  width: 54px;
+}
+.adinstall-inner .inner-left .logo {
+  width: 48px;
+  height: 48px;
+}
+.adinstall-inner .inner-left .status {
+  margin-top: 20px;
+  font-size: 10px;
+  font-weight: 200;
+  text-align: center;
+}
+.adinstall-inner .inner-left .status span {
+  padding: 3px;
+  border: 1px solid #a1a3a4;
+  border-radius: 3px;
+}
+.adinstall-inner .inner-right {
+  flex: 1;
+}
+.adinstall-inner .inner-right .name {
+  font-weight: bolder;
+}
+.adinstall-inner .inner-right .name:hover {
+  text-decoration: underline;
+  color: #9b59b6;
+}
+.adinstall-inner .inner-right .r-item {
+  color: #a0a0a0;
+  font-size: 11px;
+}
+.adinstall-inner .inner-right .r-item ._value {
+  color: #3498db;
+}
+.adinstall-inner .inner-right .r-item .ok {
+  color: #0ca70c;
+}
+.adinstall-base-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.adinstall-base-grid .zr-item {
+  width: 50%;
+}
+@media (max-width: 780px) {
+  .adinstall-base-grid {
+    flex-direction: column;
+  }
+  .adinstall-base-grid .zr-item {
+    width: 100%;
+  }
+}
+.adinstall-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.adinstall-grid .grid-item {
+  font-size: 12px;
+}
+.adinstall-grid .grid-item .body {
+  overflow: hidden;
+  height: 96px;
+  width: 168px;
+}
+.adinstall-grid .grid-item .body .logo {
+  width: 100%;
+  height: 100%;
+}
+.adinstall-grid .grid-item .body .logo:hover {
+  transition: all 2s ease;
+  transform: scale(1.5);
+}
+.adinstall-grid .grid-item .footer {
+  padding: 2px 3px;
+  text-align: center;
+}
+.adinstall-order-info .submit {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #d9534f;
+  color: #FFF;
+  text-align: center;
+}
+.adinstall-order-info .info .sign-code {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.adinstall-order-info .info .sign-code .msg-tip {
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #d9534f;
+}
+.adinstall-order-info .info .signature {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.adinstall-order-info .info .signature .title {
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  line-height: 28px;
+}
+.adinstall-order-info .info .signature .title .b {
+  font-weight: bolder;
+  padding: 0px 3px;
+  color: #0EB947;
+}
+.adinstall-order-info .info .signature .note {
+  width: 100%;
+  text-align: left;
+  background-color: #f1f1f1;
+  margin-top: 5px;
+  padding: 3px 5px;
+  border-left: 3px solid #F3D3A6;
+  font-size: 13px;
+}
+.adinstall-order-info .submit {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #d9534f;
+  color: #FFF;
+  text-align: center;
+  flex: 1;
+}
+.adinstall-order-info .submit.warning {
+  background-color: #f0ad4e;
+}

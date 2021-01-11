@@ -1,0 +1,9 @@
+.idea/*
+.DS_Store
+.git
+.gitosc
+nohup.out
+run
+node_modules/*
+!node_modules/node-static
+npm-debug.log

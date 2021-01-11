@@ -1,0 +1,35 @@
+{
+  "name": "adinstall",
+  "version": "0.1.0",
+  "description": "广告安装",
+  "main": "index.js",
+  "scripts": {
+    "release": "nohup zn run config:zn.server.config.js &",
+    "debug": "zn run config:zn.server.config.debug.js",
+    "local.release": "zn run zn_path:../../zn/zeanium-node/",
+    "local": "zn run zn_path:../../zn/zeanium-node/ config:zn.server.config.debug.js",
+    "install.release": "npm install --production",
+    "install.dev": "npm install",
+    "webpack": "webpack",
+    "webpack.watch": "webpack --watch"
+  },
+  "keywords": [
+    "Project"
+  ],
+  "author": "yangyxu",
+  "license": "MIT",
+  "devDependencies": {
+    "zeanium-react-web": "^0.4.2"
+  },
+  "dependencies": {
+    "@alicloud/sms-sdk": "^1.0.3",
+    "qrcode.react": "^0.7.2",
+    "react-stars": "^2.2.5",
+    "signature_pad": "^2.3.2",
+    "xlsx": "^0.11.15",
+    "zeanium-node": "^0.9.1",
+    "zn-plugin-admin": "^0.3.0",
+    "zn-plugin-survey": "^0.2.1",
+    "zn-plugin-wechat": "^0.2.1"
+  }
+}

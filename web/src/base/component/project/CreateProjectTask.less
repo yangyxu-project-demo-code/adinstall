@@ -1,0 +1,176 @@
+.adinstall-admin-create-brand-project-region{
+    margin: 5px;
+    border-radius: 3px;
+    background-color: #FFF;
+
+    &.active{
+        .content{
+            display: block;
+        }
+    }
+    &:hover{
+        box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    }
+
+    .header{
+        line-height: 30px;
+        background-color: #58a0c3;
+        font-weight: bold;
+        font-size: 16px;
+        color: #FFF;
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .content{
+        padding: 5px;
+        display: none;
+        .shops{
+            &>.zr-list{
+                flex-direction:column !important;
+            }
+        }
+        .child{
+            font-size: 14px;
+            padding: 4px;
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            &:hover{
+                background-color: #f7f7f7;
+                color: #58a0c3;
+            }
+
+            .btns{
+                font-size: 8px;
+                font-weight: 200;
+                .btn{
+                    border: 1px solid #3d4245;
+                    padding: 2px;
+                    margin: 2px;
+                    border-radius: 2px;
+                    &:hover{
+                        border-color: #c30f23;
+                        color: #c30f23;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.adinstall-admin-brand-project-info-shop-task{
+    display: flex;
+    background-color: #FFF;
+    .title{
+        line-height: 20px;
+        padding: 5px;
+        font-weight: bold;
+        background-color: #e8e5e5;
+    }
+    .content{
+        min-height: 120px;
+    }
+    .shops{
+        width: 220px;
+
+        .province{
+            .p-title{
+                padding: 3px;
+                background-color: #00BCD4;
+                color: #FFF;
+            }
+            .p-shops{
+                background-color: #f7f3f3;
+                .shop{
+                    word-wrap: normal;
+                    word-break: normal;
+                    padding: 3px;
+                    margin: 3px 0px;
+                    cursor: pointer;
+                    font-size: 11px;
+                    border-left: 3px solid #0000;
+                    &.curr{
+                        background-color: #f3f3f3 !important;
+                        color: #3498db;
+                        border-left-color: #3498db;
+                    }
+                    &:hover{
+                        background-color: #cccccc;
+                    }
+                }
+            }
+        }
+    }
+    .tasks{
+        flex: 1;
+        .task-list{
+            background-color: #FFF;
+            padding: 10px;
+        }
+
+        .task-item{
+            margin: 5px 0px;
+            .inner{
+                margin: 5px;
+                padding: 5px;
+                border-radius: 2px;
+                background-color: #e6e6e6;
+                &:hover{
+                    background-color: #eae8e8;
+                    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+                }
+                .r-header{
+                    .name{
+                        font-weight: bolder;
+                        cursor: pointer;
+                        &:hover{
+                            text-decoration: underline;
+                            color: #9b59b6;
+                        }
+                    }
+                    .h-tag{
+                        background-color: #dadada;
+                        border-radius: 8px;
+                        padding: 2px 8px;
+                        margin: 3px;
+                        font-size: 10px;
+                    }
+                    .h-btn{
+                        float: right;
+                        font-size: 14px;
+                        padding: 5px;
+                        cursor: pointer;
+                        &:hover{
+                            color: #3498db;
+                        }
+                    }
+                }
+                .r-item{
+                    color: #a0a0a0;
+                    font-size: 11px;
+                    display: flex;
+                    border-bottom: 1px solid #dadada;
+                    padding: 2px;
+                    &:last-child{
+                        border-bottom: 0px;
+                    }
+                    ._key{
+                        width: 70px;
+                    }
+                    ._value{
+                        flex: 1;
+                        color: #3498db;
+                    }
+                    .ok{
+                        color: #0ca70c;
+                    }
+                }
+            }
+        }
+    }
+}

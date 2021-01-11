@@ -1,0 +1,33 @@
+.adinstall-index-admin-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    .menu-group{
+        width: 100%;
+        .group-title{
+            line-height: 30px;
+        }
+        .group-menus{
+            background-color: #FFF;
+            display: flex;
+            flex-wrap: wrap;
+            .menu{
+                min-width: 33%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 20px 0px;
+                font-size: 11px;
+                .fa{
+                    font-size: 28px;
+                }
+                &:active, &:hover{
+                    background-color: #f1f1f1;
+                    color: #03a9f4;
+                }
+            }
+        }
+    }
+}

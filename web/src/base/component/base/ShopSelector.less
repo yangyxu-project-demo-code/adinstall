@@ -1,0 +1,39 @@
+.adinstall-base-component-shop-selector{
+    .shops{
+        .shop{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            background-color: #f9f9f9;
+            margin: 5px 0px;
+            padding: 3px;
+            &[data-selected="true"]{
+                background-color: #c7cacab3 !important;
+            }
+            &:hover{
+                background-color: #eee;
+            }
+            .check-icon{
+                width: 32px;
+                font-size: 20px;
+                text-align: center;
+                color: #818686b3;
+            }
+            .logo{
+                width: 32px;
+                height: 32px;
+            }
+            .infos{
+                flex: 1;
+                .name{
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+                .address{
+                    font-weight: 200;
+                    color: #a5a5a5;
+                }
+            }
+        }
+    }
+}

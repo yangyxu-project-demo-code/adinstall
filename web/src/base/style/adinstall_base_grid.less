@@ -1,0 +1,16 @@
+.adinstall-base-grid{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .zr-item{
+        width: 50%;
+    }
+
+    @media (max-width: 780px) {
+        flex-direction: column;
+        .zr-item{
+            width: 100%;
+        }
+    }
+}

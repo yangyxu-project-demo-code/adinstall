@@ -1,0 +1,70 @@
+.adinstall-order-info{
+
+    .submit{
+        margin: 10px;
+        padding: 5px;
+        border-radius: 3px;
+        background-color: #d9534f;
+        color: #FFF;
+        text-align: center;
+    }
+
+    .info{
+        .sign-code{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            .msg-tip{
+                font-size: 12px;
+                font-weight: 200;
+                line-height: 24px;
+                color: #d9534f;
+            }
+        }
+        .signature{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .title{
+                position: absolute;
+                bottom: 25px;
+                width: 100%;
+                text-align: center;
+                font-size: 12px;
+                line-height: 28px;
+                .b{
+                    font-weight: bolder;
+                    padding: 0px 3px;
+                    color: #0EB947;
+                }
+            }
+            .note{
+                width: 100%;
+                text-align: left;
+                background-color: #f1f1f1;
+                margin-top: 5px;
+                padding: 3px 5px;
+                border-left: 3px solid #F3D3A6;
+                font-size: 13px;
+            }
+        }
+
+    }
+
+    .submit{
+        margin: 10px;
+        padding: 5px;
+        border-radius: 3px;
+        background-color: #d9534f;
+        color: #FFF;
+        text-align: center;
+        flex: 1;
+        &.warning{
+            background-color: #f0ad4e;
+        }
+    }
+}
